@@ -24,6 +24,7 @@ document.querySelectorAll('.key').forEach(key => {
     });
 });
 
+/*
 // Cargar las muestras de piano
 const sampler = new Tone.Sampler({
     urls: {
@@ -59,7 +60,7 @@ const sampler = new Tone.Sampler({
     baseUrl: "https://tonejs.github.io/audio/salamander/"
 }).toDestination();
 
-
+*/
 
 
 
