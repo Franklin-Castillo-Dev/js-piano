@@ -20,7 +20,8 @@ octaves.forEach(octave => {
 document.querySelectorAll('.key').forEach(key => {
     key.addEventListener('click', () => {
         const note = key.getAttribute('data-note');
-        sampler.triggerAttackRelease(note, '8n');
+        const synth = new Tone.Synth().toDestination();
+        synth.triggerAttackRelease(note, '8n');
     });
 });
 
